@@ -98,6 +98,10 @@ p{
 }
 
 /*Home Style*/
+.brand {
+	size: 30px;
+}
+
 .logo{
 	padding-top: 100px;
 	text-transform: uppercase;
