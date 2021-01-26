@@ -69,6 +69,8 @@ body{
 	width: 100%;
 	border: 1px solid #111;
 }
+
+
 .btn-rabbit{
 	background-color: #fff;
 	color: #111;
@@ -280,7 +282,18 @@ footer{
 	left: 0;
 	padding-left: 1px;
 }
-
+.slider-container {
+	width: 800px;
+	height: 600px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.image-container {
+	width: 2400px;
+	height: 600px;
+	position: relative;
+	transition: left 2s;
+}
 
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]{
