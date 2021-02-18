@@ -209,7 +209,7 @@ footer{
 
 .submit{
 
-	font-family: "Crimson"
+	font-family: "Crimson";
 	font-size: 16px;
 }
 
@@ -223,12 +223,11 @@ footer{
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-right: 40px;
-
 	}
+
 .page-title:after{
 	width: 75%;
 	top: -9px;
-
 }
 
 .page-title:before{
@@ -318,7 +317,7 @@ footer{
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i{
 	color: #fff;
 }
-@media (max-width: 1024px) and (orientation: landscape){
+@media (max-width: 3000px) and (orientation: landscape){
 	.main{
 		height: auto;
 	}
