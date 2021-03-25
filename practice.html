@@ -51,7 +51,7 @@
             </div>
         </div>                                                      <!-- index ends here -->
 
-        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
+        <div id="about_scroll" class="pages ">                      <!-- about starts here  -->
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6 left" id="about_left">
@@ -78,12 +78,68 @@
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6" id="work_left">
-                        <div id="owl-demo" class="owl-carousel owl-theme">
-                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/event_planner_card.png"></div>
-                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/buger_app_screenshot.png"></div>
-                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/screenshot_holiday_movie.png"></div>
-                        </div>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade active">
+        <div class="numbertext">1 / 5</div>
+        <img src="assets/images/event_planner_card.png" style="width:75%">
+        <!-- <div class="text">Event Planner</div> -->
+      </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext fade">2/ 5</div>
+      <img src="assets/images/buger_app_screenshot.png" style="width:75%">
+      <!-- <div class="text">Eat-Da-Burger</div> -->
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="assets/images/screenshot_holiday_movie.png" style="width:75%">
+        <!-- <div class="text">Eat-Da-Burger</div> -->
+      </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="assets/images/password_gen.png" style="width:75%">
+      <!-- <div class="text">Caption Two</div> -->
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="assets/images/screenshot_calendar.png" style="width:75%">
+      <!-- <div class="text">Caption Three</div> -->
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <div>
+    <!-- <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+    <button class="next" onclick="plusSlides(1)">&#10095;</button> -->
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+<!--Div for slideshow container-->                    
+</div>
                     </div>
+                
+                    
+
+    
+                        
+                        <!-- <div id="owl-demo" class="owl-carousel owl-theme">
+                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/buger_app_screenshot.png"></div>
+                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/password_gen.png"></div>
+                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/screenshot_calendar.png"></div>
+                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/screenshot_holiday_movie.png"></div>
+                        </div> -->
 
                     <div class="col-md-6" id="work_right">
                         <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
@@ -95,7 +151,6 @@
                         </p>
                         <p class="subtitle">Links to Deployed Projects<br>
                             <ul class="subtitle">
-                                <li><a href="https://sheltered-plateau-08312.herokuapp.com/">Event Planner</a></li>
                                 <li><a href="https://pure-bayou-22405.herokuapp.com/">Eat-Da-Burger</a></li>
                                 <li><a href="https://vpatt1031.github.io/password_generator/">Password Generator</a></li>
                                 <li><a href="https://vpatt1031.github.io/dynamic_workflow_scheduler/">Work Day Scheduler</a></li>
@@ -103,10 +158,9 @@
                                 
                             </ul>
                         </p>
+                    </div>  
                     </div>
-                </div>
-            </div>    
-        </div>                                                                 <!-- Work ends here  -->
+                                                                      <!-- Work ends here  -->
 
 
         <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
@@ -127,15 +181,19 @@
                         <!-- form -->
                         <form class="form_edit"> 
                             <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+                                <input type="name" class="form-control" id="name" placeholder="Name">
                             </div>
 
                             <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                                </div>
+
+                            <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
                             </div>
 
                             <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            <textarea class="form-control" rows="5" id="message" placeholder="Message"></textarea>
                             </div>
                             <button type="submit" class="btn btn-rabbit submit">Send Message</button>
                         </form>
@@ -158,5 +216,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/script.js"></script>
+        <script src="assets/js/contact.js"></script>
     </body>
 </html>
